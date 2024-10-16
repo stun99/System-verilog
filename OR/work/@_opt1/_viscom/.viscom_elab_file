@@ -1,0 +1,1 @@
+/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 393216 work.OR -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt1 -id 1-5254006cf05e-671008db-8791b-cb1 +__design_bin_path+/u/koushik/system_verilog/System-verilog/OR
