@@ -1,0 +1,144 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project decoder
+# Compile of decoder.sv failed with 1 errors.
+# Compile of decoder.sv failed with 2 errors.
+# Compile of decoder.sv failed with 1 errors.
+# Compile of decoder.sv failed with 1 errors.
+# Compile of decoder.sv failed with 1 errors.
+# Compile of decoder.sv failed with 1 errors.
+# Compile of decoder.sv was successful.
+vsim work.top -voptargs=+acc
+# vsim work.top -voptargs="+acc" 
+# Start time: 21:13:19 on Oct 17,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.decoder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/decoder/decoder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/decoder/decoder.sv Line: 11
+add wave -r /*
+run
+# s=4,y=0
+# s=1,y=0
+# s=1,y=0
+# s=3,y=0
+# s=5,y=0
+# s=5,y=0
+# s=5,y=0
+# s=2,y=0
+# s=1,y=0
+# s=5,y=0
+# Compile of decoder.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 21:15:04 on Oct 17,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 14
+# vsim -voptargs="+acc" work.top 
+# Start time: 21:15:04 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.decoder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/decoder/decoder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/decoder/decoder.sv Line: 10
+run
+# s=4,y=x
+# s=1,y=x
+# s=1,y=x
+# s=3,y=x
+# s=5,y=x
+# s=5,y=x
+# s=5,y=x
+# s=2,y=x
+# s=1,y=x
+# s=5,y=x
+# Compile of decoder.sv was successful.
+# Compile of decoder.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 21:17:06 on Oct 17,2024, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.top 
+# Start time: 21:17:06 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.decoder(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/decoder/decoder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/decoder/decoder.sv Line: 11
+run
+# s=100,y=0
+# s=1,y=0
+# s=1,y=0
+# s=11,y=0
+# s=101,y=0
+# s=101,y=0
+# s=101,y=0
+# s=10,y=0
+# s=1,y=0
+# s=101,y=0
+# Compile of decoder.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 21:19:48 on Oct 17,2024, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 21:19:48 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.decoder(fast)
+run
+# s=100,y=10000
+# s=1,y=10
+# s=1,y=10
+# s=11,y=1000
+# s=101,y=100000
+# s=101,y=100000
+# s=101,y=100000
+# s=10,y=100
+# s=1,y=10
+# s=101,y=100000
+# Compile of decoder.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 21:25:07 on Oct 17,2024, Elapsed time: 0:05:19
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.top 
+# Start time: 21:25:07 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.decoder(fast)
+run
+# s=4,y=16
+# s=1,y=2
+# s=1,y=2
+# s=3,y=8
+# s=5,y=32
+# s=5,y=32
+# s=5,y=32
+# s=2,y=4
+# s=1,y=2
+# s=5,y=32
+# End time: 11:02:38 on Oct 18,2024, Elapsed time: 13:37:31
+# Errors: 0, Warnings: 3

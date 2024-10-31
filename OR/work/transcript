@@ -44,3 +44,5 @@ do run.do
 #  or_gate output in_0 = x, in_1 = x, op = x
 #  or_gate output in_0 = x, in_1 = z, op = x
 #  or_gate output in_0 = z, in_1 = z, op = x
+# End time: 20:48:48 on Oct 16,2024, Elapsed time: 9:07:17
+# Errors: 0, Warnings: 1

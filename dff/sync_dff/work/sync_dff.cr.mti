@@ -1,0 +1,9 @@
+/u/koushik/system_verilog/System-verilog/dff/sync_dff/work/sync_dff.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/dff/sync_dff/work/sync_dff.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module sync_dff
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

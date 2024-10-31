@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/u/koushik/ECE571-F24/hw2-stun99/hw2_1b
+T_opt
+!s110 1729670712
+VR?E]]2RNNmoGc_^C4E=HI2
+04 3 4 work top fast 0
+=1-5254006cf05e-6718ae38-52242-1b14
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vbeh_method
+Z3 2/u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1729670702
+!i10b 1
+!s100 d0_0CCec]f1A<E77JIW@23
+IBTZFPnjTO``ADag<6az9J2
+S1
+R1
+w1729670024
+8./beh.sv
+F./beh.sv
+!i122 10
+Z6 L0 1 13
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z9 !s108 1729670702.000000
+Z10 !s107 ./beh.sv|./dataflow.sv|./pd_method.sv|/u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv|
+!i113 0
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdataflow_method
+R3
+R4
+R5
+!i10b 1
+!s100 DOXoA0USCL0O2inDkPVDB1
+IA0E=jU1[1AK7A^hgSli8>1
+S1
+R1
+w1729669940
+8./dataflow.sv
+F./dataflow.sv
+!i122 10
+L0 1 6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vpg_method
+R3
+R4
+R5
+!i10b 1
+!s100 [^I:=;dnM1_<MZd4VP9Ba2
+I_kKCcZJ8g6[VQUC7JQnzV0
+S1
+R1
+w1729580573
+8./pd_method.sv
+F./pd_method.sv
+!i122 10
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vtop
+R3
+R4
+R5
+!i10b 1
+!s100 <Wd[2DWIYaBPL[8GM;D1F2
+IX_g?jhTzB`:5>`CW25jBE0
+S1
+R1
+w1729670699
+8/u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv
+F/u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv
+!i122 10
+L0 5 38
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

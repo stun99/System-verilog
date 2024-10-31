@@ -1,0 +1,921 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+project open /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.mpf
+# Loading project down_count
+# Compile of down_count.sv was successful.
+vsim work.top -voptargs=+acc
+# vsim work.top -voptargs="+acc" 
+# Start time: 22:30:18 on Oct 28,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+add wave -r /*
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(25)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 25
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 22:33:05 on Oct 28,2024, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:33:05 on Oct 28,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(26)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 26
+# Compile of down_count.sv failed with 1 errors.
+# Compile of down_count.sv failed with 2 errors.
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 22:38:10 on Oct 28,2024, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:38:10 on Oct 28,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(5): (vopt-12003) Variable 'count' written by continuous and procedural assignments. See /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(2). 
+# ** Error (suppressible): /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(7): (vopt-12003) Variable 'count' written by continuous and procedural assignments. See /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(2). 
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 12.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=1.
+# Error loading design
+# End time: 22:38:12 on Oct 28,2024, Elapsed time: 0:00:02
+# Errors: 3, Warnings: 2
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:40:21 on Oct 28,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(9): (vopt-12003) Variable 'count' written by continuous and procedural assignments. See /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(5). 
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 12.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=1.
+# Error loading design
+# End time: 22:40:23 on Oct 28,2024, Elapsed time: 0:00:02
+# Errors: 2, Warnings: 3
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:40:48 on Oct 28,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+run -all
+# count = x
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(29)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 29
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 22:47:42 on Oct 28,2024, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:47:42 on Oct 28,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(29)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 29
+# Compile of down_count.sv failed with 3 errors.
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 22:52:05 on Oct 28,2024, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:52:05 on Oct 28,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 15
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(29)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 29
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 22:54:51 on Oct 28,2024, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 22:54:51 on Oct 28,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 15
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(29)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 29
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 10:50:50 on Oct 29,2024, Elapsed time: 11:55:59
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 10:50:50 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(30)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 30
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 11:01:10 on Oct 29,2024, Elapsed time: 0:10:20
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 11:01:10 on Oct 29,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 11:01:41 on Oct 29,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.top 
+# Start time: 11:01:41 on Oct 29,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(30)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 30
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 11:08:33 on Oct 29,2024, Elapsed time: 0:06:52
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.top 
+# Start time: 11:08:33 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(30)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 30
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 12:23:58 on Oct 29,2024, Elapsed time: 1:15:25
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:23:58 on Oct 29,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(30)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 30
+vsim -voptargs=+acc work.top
+# End time: 12:24:31 on Oct 29,2024, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:24:31 on Oct 29,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(30)
+#    Time: 430 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 30
+# Causality operation skipped due to absence of debug database file
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 12:28:47 on Oct 29,2024, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:28:47 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(34)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 34
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 12:31:41 on Oct 29,2024, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:31:41 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(34)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 34
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 12:33:36 on Oct 29,2024, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:33:37 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(34)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 34
+vsim -voptargs=+acc work.top
+# End time: 12:33:57 on Oct 29,2024, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:33:57 on Oct 29,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(34)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 34
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 12:35:02 on Oct 29,2024, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.top 
+# Start time: 12:35:03 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(34)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 34
+# Compile of down_count.sv was successful.
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 13:01:28 on Oct 29,2024, Elapsed time: 0:26:25
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.top 
+# Start time: 13:01:28 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'count'. The port definition is at: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv Line: 16
+add wave -r /*
+run -all
+# count = x
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# count = 0
+# count = 1
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(34)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 34
+# Compile of down_count.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 13:03:17 on Oct 29,2024, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 13:03:17 on Oct 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.down_count(fast)
+run -all
+# count = x
+# count = 1111
+# count = 1110
+# count = 1101
+# count = 1100
+# count = 1011
+# count = 1111
+# count = 1110
+# count = 1101
+# count = 1100
+# count = 1011
+# count = 1010
+# count = 1001
+# count = 1000
+# count = 111
+# count = 110
+# count = 101
+# count = 100
+# count = 11
+# count = 10
+# count = 1
+# count = 0
+# count = 1111
+# count = 1110
+# count = 1101
+# count = 1100
+# count = 1011
+# count = 1010
+# count = 1001
+# count = 1000
+# count = 111
+# count = 110
+# count = 101
+# count = 100
+# count = 11
+# count = 10
+# count = 1
+# count = 0
+# count = 1111
+# count = 1110
+# count = 1101
+# count = 1100
+# count = 1011
+# count = 1010
+# count = 1001
+# count = 1000
+# count = 111
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv(35)
+#    Time: 485 ns  Iteration: 0  Instance: /top
+# Break in Module top at /u/koushik/system_verilog/System-verilog/counter/down_counter/work/down_count.sv line 35
+# End time: 13:07:20 on Oct 29,2024, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 2

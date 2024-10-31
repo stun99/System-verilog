@@ -1,0 +1,32 @@
+/u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module pg_method
+-- Compiling module dataflow_method
+-- Compiling module beh_method
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/pd_method.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/pd_method.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module pg_method
+
+Top level modules:
+	pg_method
+
+} {} {}} /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/dataflow.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/dataflow.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module dataflow_method
+
+Top level modules:
+	dataflow_method
+
+} {} {}} /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/beh.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/beh.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module beh_method
+
+Top level modules:
+	beh_method
+
+} {} {}}

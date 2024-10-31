@@ -1,0 +1,67 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project decode
+# Compile of beh.sv was successful.
+# Compile of dataflow.sv was successful.
+# Compile of pd_method.sv was successful.
+# Compile of testbench.sv failed with 3 errors.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of beh.sv was successful.
+# Compile of dataflow.sv was successful.
+# Compile of pd_method.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.top -voptargs=+acc
+# vsim work.top -voptargs="+acc" 
+# Start time: 01:03:57 on Oct 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error: /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv(21): Module 'assign_method' is not defined.
+#  For instance 'DUT1' at path 'top'
+# ** Error: /u/koushik/ECE571-F24/hw2-stun99/hw2_1b/testbench.sv(22): Module 'always_method' is not defined.
+#  For instance 'DUT2' at path 'top'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=1.
+# Error loading design
+# End time: 01:03:58 on Oct 23,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 7
+# Compile of beh.sv was successful.
+# Compile of dataflow.sv was successful.
+# Compile of pd_method.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 01:05:11 on Oct 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.pg_method(fast)
+# Loading work.dataflow_method(fast)
+# Loading work.beh_method(fast)
+add wave -r /*
+run -all
+# Match: A = 0 B = 0 EN = 0 | z = 1111 |z1 = 1111 | z2 = 1111 | z3 = 1111
+# Match: A = 0 B = 1 EN = 0 | z = 1111 |z1 = 1111 | z2 = 1111 | z3 = 1111
+# Match: A = 1 B = 0 EN = 0 | z = 1111 |z1 = 1111 | z2 = 1111 | z3 = 1111
+# Match: A = 1 B = 1 EN = 0 | z = 1111 |z1 = 1111 | z2 = 1111 | z3 = 1111
+# Match: A = 0 B = 0 EN = 1 | z = 1110 |z1 = 1110 | z2 = 1110 | z3 = 1110
+# Match: A = 0 B = 1 EN = 1 | z = 1101 |z1 = 1101 | z2 = 1101 | z3 = 1101
+# Match: A = 1 B = 0 EN = 1 | z = 1011 |z1 = 1011 | z2 = 1011 | z3 = 1011
+# Match: A = 1 B = 1 EN = 1 | z = 0111 |z1 = 0111 | z2 = 0111 | z3 = 0111
+# End time: 01:07:48 on Oct 23,2024, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 3

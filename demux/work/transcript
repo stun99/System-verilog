@@ -1,0 +1,141 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project demux
+# Compile of demux.sv failed with 1 errors.
+# Compile of demux.sv failed with 1 errors.
+# Compile of demux.sv failed with 1 errors.
+# Compile of demux.sv failed with 1 errors.
+# Compile of demux.sv failed with 1 errors.
+# Compile of demux.sv failed with 2 errors.
+# Compile of demux.sv failed with 3 errors.
+# Compile of demux.sv was successful.
+vsim work.top -voptargs=+acc
+# vsim work.top -voptargs="+acc" 
+# Start time: 08:07:33 on Oct 17,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run
+# s=0,e=1,y=1
+# s=1,e=2,y=1
+# s=1,e=2,y=1
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# s=2,e=4,y=1
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# Compile of demux.sv was successful.
+quit -sim
+# End time: 08:10:48 on Oct 17,2024, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 15
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 08:11:02 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+run
+# s=0,e=1,y=1
+# s=1,e=2,y=1
+# s=1,e=2,y=1
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# s=2,e=4,y=1
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+vsim -voptargs=+acc work.top
+# End time: 08:11:45 on Oct 17,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.top 
+# Start time: 08:11:45 on Oct 17,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run
+# s=0,e=1,y=1
+# s=1,e=2,y=1
+# s=1,e=2,y=1
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# s=2,e=4,y=1
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 08:13:22 on Oct 17,2024, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.top 
+# Start time: 08:13:22 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run
+# s=1,e=2,y=1
+quit -sim
+# End time: 08:14:18 on Oct 17,2024, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 3
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 08:40:35 on Oct 17,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run
+# s=0,e=1,y=1
+# s=1,e=2,y=1
+# s=1,e=2,y=1
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# s=2,e=4,y=1
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# End time: 08:40:57 on Oct 17,2024, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 4

@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/work
+T_opt
+!s110 1730234999
+V>m1cU7>LnRWF24=0<aEa10
+04 3 4 work top fast 0
+=1-5254006cf05e-67214a77-3b634-32b4
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vsync_fifo
+Z3 2/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/work/sync_fifo.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1730234989
+!i10b 1
+!s100 A1cGh_Ho5B<4G]hlz1KP>3
+IX7hPH=`hB@HhOlK=P[ekK2
+S1
+R1
+Z6 w1730234987
+Z7 8/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/work/sync_fifo.sv
+Z8 F/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/work/sync_fifo.sv
+!i122 3
+L0 1 14
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z11 !s108 1730234989.000000
+Z12 !s107 /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/work/sync_fifo.sv|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/work/sync_fifo.sv|
+!i113 0
+Z14 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtop
+R3
+R4
+R5
+!i10b 1
+!s100 ]f?nJ7^Im9M:EnL[VMe8Y1
+I`:3_En]NA?VP5C7CE[6XE3
+S1
+R1
+R6
+R7
+R8
+!i122 3
+L0 16 28
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
