@@ -1,0 +1,16 @@
+/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module syn_fifo
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/syn.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/syn.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module syn_fifo
+
+Top level modules:
+	syn_fifo
+
+} {} {}}

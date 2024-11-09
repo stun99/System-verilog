@@ -1,0 +1,41 @@
+/u/koushik/system_verilog/System-verilog/cpu/ece571_cpu_pkg.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/cpu/ece571_cpu_pkg.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling package ece571_cpu_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} /u/koushik/system_verilog/System-verilog/cpu/ece571_cpu_tb.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/cpu/ece571_cpu_tb.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module ece571_cpu_tb
+-- Importing package ece571_cpu_pkg
+
+Top level modules:
+	ece571_cpu_tb
+
+} {} {}} /u/koushik/system_verilog/System-verilog/cpu/ece571_alu.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/cpu/ece571_alu.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling package ece571_alu_sv_unit
+-- Importing package ece571_cpu_pkg
+-- Compiling module ece571_alu
+
+Top level modules:
+	ece571_alu
+
+} {} {}} /u/koushik/system_verilog/System-verilog/cpu/ece571_regfile.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/cpu/ece571_regfile.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module ece571_regfile
+
+Top level modules:
+	ece571_regfile
+
+} {} {}} /u/koushik/system_verilog/System-verilog/cpu/ece571_cpu.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/cpu/ece571_cpu.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling package ece571_cpu_pkg
+-- Compiling module ece571_cpu
+-- Importing package ece571_cpu_pkg
+
+Top level modules:
+	ece571_cpu
+
+} {} {}}

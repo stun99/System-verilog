@@ -1,0 +1,10 @@
+/u/koushik/system_verilog/System-verilog/fifo/async_fifo/tb.sv {2 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/fifo/async_fifo/tb.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module asyn_fifo
+-- Compiling module tb
+** Warning: /u/koushik/system_verilog/System-verilog/fifo/async_fifo/tb.sv(29): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+
+Top level modules:
+	tb
+
+} {} {}}

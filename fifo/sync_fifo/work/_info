@@ -1,10 +1,167 @@
 m255
 K4
 z2
+Z0 !s12c _opt8
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt6
+R1
+!s12c _opt5
+R1
+!s12c _opt4
+R1
+!s12c _opt3
+R1
+!s12c _opt2
+R1
+Z2 !s12c _opt1
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+!s12c _opt
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-d/u/koushik/system_verilog/System-verilog/fifo/sync_fifo
+Z3 d/u/koushik/system_verilog/System-verilog/fifo/sync_fifo
+T_opt
+!s110 1731070861
+VfW]ePg@oS7UYA>X3A?_`i0
+04 3 4 work top fast 0
+=1-5254006cf05e-672e0b8c-ca525-2430
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.2;79
+R3
+T_opt8
+!s110 1731131181
+VKjba?W<<^688^d=LZCJzY1
+04 2 4 work tb fast 0
+=1-5254006cf05e-672ef72d-33986-4ca6
+R1
+R4
+R5
+R6
+R7
+o-quiet -auto_acc_if_foreign -work work -L work +acc
+R8
+n@_opt8
+R9
+vsyn_fifo
+Z10 2syn.sv|tb.sv
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 !s110 1731131179
+!i10b 1
+!s100 Z:B2S8VJVzG`EZ_LPe;^o1
+I8mcmWm5j?egR7@BTYn4F^0
+S1
+R3
+w1731098681
+8syn.sv
+Fsyn.sv
+!i122 71
+L0 1 64
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z15 !s108 1731131178.000000
+Z16 !s107 tb.sv|syn.sv|
+Z17 !s90 -reportprogress|300|+define+DEBUG|syn.sv|tb.sv|
+!i113 0
+Z18 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z19 !s92 +define+DEBUG -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vtb
+R10
+R11
+R12
+!i10b 1
+!s100 h`GQ[8kk1Abl:jH6H1HJC2
+IgTOeaPlkkk<_gh<5WSSkE0
+S1
+R3
+w1731131167
+8tb.sv
+Ftb.sv
+!i122 71
+L0 2 99
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R19
+R8
+vtop
+2/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv
+R11
+!s110 1731131170
+!i10b 1
+!s100 jGMGQ4JQ6g=P@k]JJ3k533
+I2Z`IiDKM0_6Se76Ma1fE;1
+S1
+R3
+w1730649996
+8/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv
+F/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv
+!i122 68
+L0 32 32
+R13
+R14
+r1
+!s85 0
+31
+!s108 1731131170.000000
+!s107 /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8

@@ -1,0 +1,9 @@
+/u/koushik/system_verilog/System-verilog/pattern_detector/work/pattern_detector.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/pattern_detector/work/pattern_detector.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module pattern_detector_1010
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

@@ -1,0 +1,126 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+project open /u/koushik/system_verilog/System-verilog/cpu/cpu.mpf
+# Loading project cpu
+# Compile of ece571_alu.sv was successful with warnings.
+# Compile of ece571_cpu.sv was successful.
+# Compile of ece571_cpu_pkg.sv was successful.
+# Compile of ece571_cpu_tb.sv was successful.
+# Compile of ece571_regfile.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ece571_cpu.sv was successful.
+# Compile of ece571_alu.sv was successful.
+# Compile of ece571_cpu.sv was successful.
+# Compile of ece571_cpu_pkg.sv was successful.
+# Compile of ece571_cpu_tb.sv was successful.
+# Compile of ece571_regfile.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ece571_alu.sv was successful.
+# Load canceled
+
+pwd
+# /u/koushik/system_verilog/System-verilog/cpu
+ls
+# cpu.cr.mti
+# cpu.mpf
+# ece571_alu.sv
+# ece571_alu.sv.bak
+# ece571_cpu_pkg.sv
+# ece571_cpu_pkg.sv.bak
+# ece571_cpu_run.do
+# ece571_cpu.sv
+# ece571_cpu.sv.bak
+# ece571_cpu_tb.sv
+# ece571_regfile.sv
+# etch13650
+# transcript
+# vsim.wlf
+# work
+do ece571_cpu_run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:54:50 on Nov 06,2024
+# vlog -reportprogress 300 "+define+DEBUG" ece571_cpu_pkg.sv ece571_alu.sv ece571_regfile.sv ece571_cpu.sv ece571_cpu_tb.sv 
+# -- Compiling package ece571_cpu_pkg
+# ** Warning: ece571_alu.sv(1): (vlog-13233) Design unit "ece571_alu_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package ece571_alu_sv_unit
+# -- Importing package ece571_cpu_pkg
+# -- Compiling module ece571_alu
+# -- Compiling module ece571_regfile
+# -- Compiling package ece571_cpu_pkg
+# ** Warning: ** while parsing file included at ece571_cpu.sv(1)
+# ** at ece571_cpu_pkg.sv(1): (vlog-2275) Existing package 'ece571_cpu_pkg' at line 1 will be overwritten.
+# -- Compiling module ece571_cpu
+# -- Compiling module ece571_cpu_tb
+# 
+# Top level modules:
+# 	ece571_cpu
+# 	ece571_cpu_tb
+# End time: 21:54:50 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim work.ece571_cpu_tb 
+# Start time: 21:54:50 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.ece571_cpu_pkg(fast)
+# Loading work.ece571_alu_sv_unit(fast)
+# Loading work.ece571_cpu_tb(fast)
+# End time: 21:54:59 on Nov 06,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.ece571_cpu_tb 
+# Start time: 21:54:59 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.ece571_cpu_pkg(fast)
+# Loading work.ece571_cpu_tb(fast)
+# Loading work.ece571_alu_sv_unit(fast)
+# Loading work.ece571_alu(fast)
+# Opcode: 0 | A: 11 | B: 14 | Expected Result: 25 | Actual Result: 25
+# Test passed for opcode 0: A=11, B=14. Result=25
+# Opcode: 0 | A: 0 | B: 14 | Expected Result: 14 | Actual Result: 14
+# Test passed for opcode 0: A=0, B=14. Result=14
+# Opcode: 0 | A: 5 | B: 4 | Expected Result: 9 | Actual Result: 9
+# Test passed for opcode 0: A=5, B=4. Result=9
+# Opcode: 1 | A: 30 | B: 10 | Expected Result: 20 | Actual Result: 20
+# Test passed for opcode 1: A=30, B=10. Result=20
+# Opcode: 1 | A: 10 | B: 30 | Expected Result: 4294967276 | Actual Result: 4294967276
+# Test passed for opcode 1: A=10, B=30. Result=4294967276
+# Opcode: 1 | A: 0 | B: 0 | Expected Result: 0 | Actual Result: 0
+# Test passed for opcode 1: A=0, B=0. Result=0
+# Opcode: 2 | A: 4278255360 | B: 252645135 | Expected Result: 251662080 | Actual Result: 251662080
+# Test passed for opcode 2: A=4278255360, B=252645135. Result=251662080
+# Opcode: 2 | A: 4294967295 | B: 0 | Expected Result: 0 | Actual Result: 0
+# Test passed for opcode 2: A=4294967295, B=0. Result=0
+# Opcode: 2 | A: 2863311530 | B: 1431655765 | Expected Result: 0 | Actual Result: 0
+# Test passed for opcode 2: A=2863311530, B=1431655765. Result=0
+# Opcode: 3 | A: 4278255360 | B: 252645135 | Expected Result: 4279238415 | Actual Result: 4279238415
+# Test passed for opcode 3: A=4278255360, B=252645135. Result=4279238415
+# Opcode: 3 | A: 4294967295 | B: 0 | Expected Result: 4294967295 | Actual Result: 4294967295
+# Test passed for opcode 3: A=4294967295, B=0. Result=4294967295
+# Opcode: 3 | A: 2863311530 | B: 1431655765 | Expected Result: 4294967295 | Actual Result: 4294967295
+# Test passed for opcode 3: A=2863311530, B=1431655765. Result=4294967295
+# Opcode: 4 | A: 4278255360 | B: 252645135 | Expected Result: 4027576335 | Actual Result: 4027576335
+# Test passed for opcode 4: A=4278255360, B=252645135. Result=4027576335
+# Opcode: 4 | A: 0 | B: 0 | Expected Result: 0 | Actual Result: 0
+# Test passed for opcode 4: A=0, B=0. Result=0
+# Opcode: 4 | A: 4294967295 | B: 4294967295 | Expected Result: 0 | Actual Result: 0
+# Test passed for opcode 4: A=4294967295, B=4294967295. Result=0
+# ** Note: $finish    : ece571_cpu_tb.sv(85)
+#    Time: 15 ns  Iteration: 0  Instance: /ece571_cpu_tb
+# 1
+# Break in Module ece571_cpu_tb at ece571_cpu_tb.sv line 85
+# End time: 21:57:11 on Nov 06,2024, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 2
