@@ -1236,3 +1236,7 @@ do run.do
 # ** Note: $stop    : tb.sv(63)
 #    Time: 895 ns  Iteration: 0  Instance: /tb
 # Break in Module tb at tb.sv line 63
+# Project file /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/sync_fifo.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 00:02:51 on Nov 11,2024, Elapsed time: 50:16:31
+# Errors: 0, Warnings: 4

@@ -1,0 +1,328 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+project open /u/koushik/system_verilog/System-verilog/memory/memory.mpf
+# Loading project memory
+# Compile of memory.sv failed with 2 errors.
+# Compile of memory.sv was successful.
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb -voptargs=+acc
+# vsim work.tb -voptargs="+acc" 
+# Start time: 11:32:59 on Nov 10,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.memory(fast)
+add wave -r /*
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/tb.sv(26)
+#    Time: 105 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /u/koushik/system_verilog/System-verilog/memory/tb.sv line 26
+quit -sim
+# End time: 11:33:44 on Nov 10,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 10
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 11:34:29 on Nov 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.memory(fast)
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/tb.sv(26)
+#    Time: 105 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /u/koushik/system_verilog/System-verilog/memory/tb.sv line 26
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# End time: 11:36:52 on Nov 10,2024, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb 
+# Start time: 11:36:52 on Nov 10,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.memory(fast)
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/tb.sv(26)
+#    Time: 105 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /u/koushik/system_verilog/System-verilog/memory/tb.sv line 26
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# End time: 11:48:03 on Nov 10,2024, Elapsed time: 0:11:11
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb 
+# Start time: 11:48:04 on Nov 10,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.memory(fast)
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/tb.sv(28)
+#    Time: 765 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /u/koushik/system_verilog/System-verilog/memory/tb.sv line 28
+vsim -voptargs=+acc work.tb
+# End time: 11:48:27 on Nov 10,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 11:48:27 on Nov 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.memory(fast)
+add wave -r /*
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/tb.sv(28)
+#    Time: 765 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /u/koushik/system_verilog/System-verilog/memory/tb.sv line 28
+quit -sim
+# End time: 11:50:33 on Nov 10,2024, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 1
+# Compile of memory.sv was successful.
+# Compile of tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 11:52:34 on Nov 10,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.memory(fast)
+add wave -r /*
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/tb.sv(28)
+#    Time: 1415 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at /u/koushik/system_verilog/System-verilog/memory/tb.sv line 28
+quit -sim
+# End time: 17:54:34 on Nov 10,2024, Elapsed time: 6:02:00
+# Errors: 0, Warnings: 4
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# Compile of backdoor_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# Compile of backdoor_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_bd
+# vsim -voptargs="+acc" work.tb_bd 
+# Start time: 18:01:46 on Nov 10,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /u/koushik/system_verilog/System-verilog/memory/backdoor_tb.sv(46): (vopt-7063) Failed to find 'dut' in hierarchical name 'dut.mem'.
+#         Region: tb_bd
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 18:01:47 on Nov 10,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# Compile of backdoor_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_bd
+# vsim -voptargs="+acc" work.tb_bd 
+# Start time: 18:03:10 on Nov 10,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb_bd(fast)
+# Loading work.memory(fast)
+run -all
+# ** Note: $stop    : /u/koushik/system_verilog/System-verilog/memory/backdoor_tb.sv(28)
+#    Time: 105 ns  Iteration: 0  Instance: /tb_bd
+# Break in Module tb_bd at /u/koushik/system_verilog/System-verilog/memory/backdoor_tb.sv line 28
+quit -sim
+# End time: 18:07:56 on Nov 10,2024, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 3
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# Compile of backdoor_tb.sv failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# Compile of backdoor_tb.sv failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of memory.sv was successful.
+# Compile of tb.sv was successful.
+# Compile of backdoor_tb.sv was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+
+ddo
+# invalid command name "ddo"
+
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:45:14 on Nov 10,2024
+# vlog -reportprogress 300 "+define+DEBUG" memory.sv backdoor_tb.sv 
+# -- Compiling module memory
+# -- Compiling module memory
+# ** Warning: ** while parsing file included at backdoor_tb.sv(1)
+# ** at memory.sv(1): (vlog-2275) Existing module 'memory' at line 1 will be overwritten.
+# -- Compiling module tb_bd
+# ** Warning: backdoor_tb.sv(24): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb_bd
+# End time: 18:45:14 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -L work tb_bd -voptargs="+acc" "+testname=test_fd_write_fd_read" 
+# Start time: 18:45:14 on Nov 10,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): backdoor_tb.sv(33): (vopt-7063) Failed to find 'read_mem_bd' in hierarchical name 'read_mem_bd'.
+#         Region: tb_bd
+# ** Error (suppressible): backdoor_tb.sv(36): (vopt-7063) Failed to find 'write_mem_bd' in hierarchical name 'write_mem_bd'.
+#         Region: tb_bd
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 4
+
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:46:25 on Nov 10,2024
+# vlog -reportprogress 300 "+define+DEBUG" memory.sv backdoor_tb.sv 
+# -- Compiling module memory
+# -- Compiling module memory
+# ** Warning: ** while parsing file included at backdoor_tb.sv(1)
+# ** at memory.sv(1): (vlog-2275) Existing module 'memory' at line 1 will be overwritten.
+# -- Compiling module tb_bd
+# ** Warning: backdoor_tb.sv(24): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb_bd
+# End time: 18:46:26 on Nov 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vsim -L work tb_bd -voptargs="+acc" "+testname=test_fd_write_fd_read" 
+# Start time: 18:45:14 on Nov 10,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: backdoor_tb.sv(24): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Warning: backdoor_tb.sv(24): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=4.
+# Loading sv_std.std
+# Loading work.tb_bd(fast)
+# Loading work.memory(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_bd File: backdoor_tb.sv Line: 24
+# ** UI-Msg (Warning): (vish-4014) No objects found matching 'tb/*'.
+# Error in macro ./run.do line 5
+# ** UI-Msg (Warning): (vish-4014) No objects found matching 'tb/*'.
+#     while executing
+# "add wave sim:tb/*"
+quit -sim
+# End time: 18:47:32 on Nov 10,2024, Elapsed time: 0:02:18
+# Errors: 2, Warnings: 9
+
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:47:43 on Nov 10,2024
+# vlog -reportprogress 300 "+define+DEBUG" memory.sv backdoor_tb.sv 
+# -- Compiling module memory
+# -- Compiling module memory
+# ** Warning: ** while parsing file included at backdoor_tb.sv(1)
+# ** at memory.sv(1): (vlog-2275) Existing module 'memory' at line 1 will be overwritten.
+# -- Compiling module tb_bd
+# ** Warning: backdoor_tb.sv(24): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb_bd
+# End time: 18:47:43 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -L work tb_bd -voptargs="+acc" "+testname=test_fd_write_fd_read" 
+# Start time: 18:47:43 on Nov 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.tb_bd(fast)
+# Loading work.memory(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_bd File: backdoor_tb.sv Line: 24
+# ** Note: $stop    : backdoor_tb.sv(45)
+#    Time: 1415 ns  Iteration: 0  Instance: /tb_bd
+# Break in Module tb_bd at backdoor_tb.sv line 45
+quit -sim
+# End time: 18:48:49 on Nov 10,2024, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+
+quit -sim
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 18:48:57 on Nov 10,2024
+# vlog -reportprogress 300 "+define+DEBUG" memory.sv backdoor_tb.sv 
+# -- Compiling module memory
+# -- Compiling module memory
+# ** Warning: ** while parsing file included at backdoor_tb.sv(1)
+# ** at memory.sv(1): (vlog-2275) Existing module 'memory' at line 1 will be overwritten.
+# -- Compiling module tb_bd
+# ** Warning: backdoor_tb.sv(24): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	tb_bd
+# End time: 18:48:57 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -L work tb_bd -voptargs="+acc" "+testname=test_bd_write_fd_read" 
+# Start time: 18:48:57 on Nov 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.tb_bd(fast)
+# Loading work.memory(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_bd File: backdoor_tb.sv Line: 24
+# ** Note: $stop    : backdoor_tb.sv(45)
+#    Time: 765 ns  Iteration: 0  Instance: /tb_bd
+# Break in Module tb_bd at backdoor_tb.sv line 45
+quit -sim
+# End time: 18:50:43 on Nov 10,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 3

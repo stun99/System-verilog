@@ -1,0 +1,1 @@
+The Syn.sv consist of simple synchronous fifo implementation where it performs write into fifo and read form fifo. It also indicates overflow and underflow condition. The fifo is tested for full, empty, underflow and overflow conditions in tb.sv

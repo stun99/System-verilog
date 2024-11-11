@@ -1,10 +1,3 @@
-/////////////////////////////////////////////
-// Register file definitions
-// We may not use it for the initial labs
-// Venkatesh Patil (venpatil@pdx.edu)
-// ece571_reg_file.sv
-////////////////////////////////////////////
-
 module ece571_regfile (
   input logic clk,
   input logic [3:0] read_addr1,

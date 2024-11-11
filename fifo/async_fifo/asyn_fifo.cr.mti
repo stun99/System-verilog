@@ -7,4 +7,11 @@ QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
 Top level modules:
 	tb
 
+} {} {}} /u/koushik/system_verilog/System-verilog/fifo/async_fifo/asyn_fifo.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/fifo/async_fifo/asyn_fifo.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module asyn_fifo
+
+Top level modules:
+	asyn_fifo
+
 } {} {}}

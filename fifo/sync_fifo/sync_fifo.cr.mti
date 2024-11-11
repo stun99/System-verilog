@@ -6,6 +6,15 @@ QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
 Top level modules:
 	top
 
+} {} {}} /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/tb.sv {2 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/tb.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module syn_fifo
+-- Compiling module tb
+** Warning: /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/tb.sv(24): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+
+Top level modules:
+	tb
+
 } {} {}} /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/syn.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/fifo/sync_fifo/syn.sv
 QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
 -- Compiling module syn_fifo

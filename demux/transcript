@@ -1,0 +1,182 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+project open /u/koushik/system_verilog/System-verilog/demux/demux.mpf
+# Loading project demux
+# Compile of demux.sv was successful.
+vsim work.top -voptargs=+acc
+# vsim work.top -voptargs="+acc" 
+# Start time: 00:24:53 on Nov 11,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run -all
+# s=0,e=1,y=1
+# s=1,e=2,y=1
+# s=1,e=2,y=1
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# s=2,e=4,y=1
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=0,y=0
+# s=1,e=2,y=1
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 00:27:18 on Nov 11,2024, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 00:27:18 on Nov 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run -all
+# 0: s=0,e=1,y=1
+# 5: s=1,e=2,y=1
+# 10: s=1,e=2,y=1
+# 15: s=1,e=0,y=0
+# 20: s=1,e=2,y=1
+# 25: s=2,e=4,y=1
+# 30: s=1,e=0,y=0
+# 35: s=1,e=0,y=0
+# 40: s=1,e=0,y=0
+# 45: s=1,e=2,y=1
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 00:29:18 on Nov 11,2024, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 00:29:18 on Nov 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+run -all
+# 5: s=0,e=1,y=1
+# 10: s=1,e=2,y=1
+# 15: s=1,e=2,y=1
+# 20: s=1,e=0,y=0
+# 25: s=1,e=2,y=1
+# 30: s=2,e=4,y=1
+# 35: s=1,e=0,y=0
+# 40: s=1,e=0,y=0
+# 45: s=1,e=0,y=0
+# 50: s=1,e=2,y=1
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 00:33:34 on Nov 11,2024, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 00:33:34 on Nov 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'y'. The port definition is at: /u/koushik/system_verilog/System-verilog/demux/demux.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /top/DUT File: /u/koushik/system_verilog/System-verilog/demux/demux.sv Line: 12
+add wave -r /*
+# Break key hit
+run -all
+# 5: s=00,e=0001,y=1
+# 10: s=01,e=0010,y=1
+# 15: s=01,e=0010,y=1
+# 20: s=01,e=0000,y=0
+# 25: s=01,e=0010,y=1
+# 30: s=10,e=0100,y=1
+# 35: s=01,e=0000,y=0
+# 40: s=01,e=0000,y=0
+# 45: s=01,e=0000,y=0
+# 50: s=01,e=0010,y=1
+quit -sim
+# End time: 00:34:25 on Nov 11,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 3
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# vsim -voptargs="+acc" work.top 
+# Start time: 00:37:23 on Nov 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+add wave -r /*
+run -all
+# 5: s=0,y=1,e=0001
+# 10: s=1,y=1,e=0010
+# 15: s=1,y=1,e=0010
+# 20: s=1,y=0,e=0000
+# 25: s=1,y=1,e=0010
+# 30: s=2,y=1,e=0100
+# 35: s=1,y=0,e=0000
+# 40: s=1,y=0,e=0000
+# 45: s=1,y=0,e=0000
+# 50: s=1,y=1,e=0010
+# Compile of demux.sv was successful.
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 00:42:28 on Nov 11,2024, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.top 
+# Start time: 00:42:28 on Nov 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+run -all
+# 0: y=1,s=3,e=1000
+# Compile of demux.sv was successful.
+# Load canceled
+# Compile of demux.sv was successful.
+vsim -voptargs=+acc work.top
+# End time: 00:43:33 on Nov 11,2024, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.top 
+# Start time: 00:43:33 on Nov 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.demux(fast)
+run -all
+# 0: y=0,s=0,e=0000
+# 5: y=0,s=1,e=0000
+# 10: y=0,s=2,e=0000
+# 15: y=0,s=3,e=0000
+# 20: y=1,s=0,e=0001
+# 25: y=1,s=1,e=0010
+# 30: y=1,s=2,e=0100
+# 35: y=1,s=3,e=1000
+# End time: 00:45:02 on Nov 11,2024, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 2

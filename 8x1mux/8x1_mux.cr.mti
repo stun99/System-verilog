@@ -1,0 +1,12 @@
+/u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module mux
+-- Compiling module top_4x1
+-- Compiling module mux8x1
+-- Compiling module top
+
+Top level modules:
+	top_4x1
+	top
+
+} {} {}}

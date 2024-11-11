@@ -1,0 +1,3 @@
+This folder consists of 2X4 decoder implemented in behavioural (beh.sv), primitive gate(pd_method.sv) and dataflow method(dataflow.sv).
+
+These three methods are tested with a logic in the testbench (testbench.sv), and flags error when there is any mismatch of outputs for each inputs.

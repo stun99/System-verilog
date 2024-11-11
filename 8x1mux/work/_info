@@ -1,10 +1,184 @@
 m255
 K4
 z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-d/u/koushik/system_verilog/System-verilog/8x1mux
+Z3 d/u/koushik/system_verilog/System-verilog/8x1mux
+T_opt
+!s110 1731149661
+VfYklN[YeFdQP2dBI?5lgo0
+Z4 04 3 4 work top fast 0
+=1-5254006cf05e-672f3f5d-178a7-5d5e
+R1
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z9 tCvgOpt 0
+n@_opt
+Z10 OL;O;2024.2;79
+R3
+T_opt1
+!s110 1731317555
+V7Po>NSP7POkg6hAlnCKkI2
+R4
+=1-5254006cf05e-6731cf33-32ff4-596f
+R1
+R5
+R6
+R7
+R8
+o-quiet -auto_acc_if_foreign -work work
+R9
+n@_opt1
+R10
+vmux
+Z11 2/u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 !s110 1731317546
+!i10b 1
+!s100 61WSNG5RLX^I^@cK@S:Rb0
+I_`2oJ9Rk7R_fXgO6HkGKF0
+S1
+R3
+Z14 w1731149220
+Z15 8./mux.sv
+Z16 F./mux.sv
+!i122 35
+L0 1 6
+Z17 VDg1SIo80bB@j0V0VzS_@n1
+Z18 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z19 !s108 1731317546.000000
+Z20 !s107 ./mux.sv|/u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv|
+!i113 0
+Z22 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vmux8x1
+R11
+R12
+R13
+!i10b 1
+!s100 d?jiQR;^fcfV>Znz:[N0V1
+Ib7hN47MbH;g`GKb`g1C@m1
+S1
+R3
+Z23 w1731317543
+Z24 8/u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv
+Z25 F/u/koushik/system_verilog/System-verilog/8x1mux/8x1mux.sv
+!i122 35
+L0 3 6
+R17
+R18
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R22
+R9
+vtop
+R11
+R12
+R13
+!i10b 1
+!s100 BkU3MN8IX_Id]z[cU3WYF1
+I5?UECCfJ12Pd;a>JLWaYJ1
+S1
+R3
+R23
+R24
+R25
+!i122 35
+L0 10 27
+R17
+R18
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R22
+R9
+vtop_4x1
+R11
+R12
+R13
+!i10b 1
+!s100 PAU0K7MKN9aRUjfoj^zA_3
+I8YU6n90S<o^jc9RBcUPYV1
+S1
+R3
+R14
+R15
+R16
+!i122 35
+L0 8 14
+R17
+R18
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R22
+R9

@@ -1,4 +1,4 @@
-module demux (input [1:0]s,y,output reg [3:0]e);
+module demux (input [1:0]s,input y,output reg [3:0]e);
 always @(*) begin
 e = 4'b0000;
 e[s]=y;
@@ -11,11 +11,9 @@ logic [3:0]e;
 logic y;
 demux DUT (s,y,e);
 initial begin
-repeat (10) begin
-//#5;
-s = $random;
-y = $random;
-$monitor("s=%0d,e=%0d,y=%0d",s,e,y);
+for (int i = 0; i < 8; i = i + 1) begin
+            {y,s} = i; 
+$monitor("%0t: y=%0b,s=%d,e=%b",$time,y,s,e);
 #5;
 end
 end

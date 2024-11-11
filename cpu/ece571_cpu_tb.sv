@@ -1,12 +1,3 @@
-////////////////////////////////////////////////
-// Simple testbench to verify the CPU operations
-// ece571_cpu_tb.sv
-// No use of regfile initialziation in this one
-// To be used with ECE571 labs
-// Venkatesh Patil (venpatil@pdx.edu)
-// Modify as needed
-///////////////////////////////////////////////
-
 module ece571_cpu_tb;
 
   // Parameters

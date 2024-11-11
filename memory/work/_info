@@ -1,0 +1,145 @@
+m255
+K4
+z2
+!s12c _opt2
+Z0 !s99 nomlopt
+!s12c _opt1
+R0
+Z1 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/u/koushik/system_verilog/System-verilog/memory
+T_opt
+!s110 1731268355
+VGSPz3LGb2d:WU1YRI`g]R0
+04 2 4 work tb fast 0
+=1-5254006cf05e-67310f02-8499d-403a
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.2;79
+R2
+T_opt1
+!s110 1731290591
+VPZ9FO<c[=VeHMlUlhX9JM1
+Z10 04 5 4 work tb_bd fast 0
+=1-5254006cf05e-673165de-e732c-7d0f
+R0
+R3
+R4
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+R2
+T_opt2
+!s110 1731293186
+VnEoW`]kk2Ed=dE@C9?K0<3
+R10
+=2-5254006cf05e-67317002-486a2-1da9
+R0
+R3
+R4
+R5
+R6
+o-quiet -auto_acc_if_foreign -work work -L work +acc
+R8
+n@_opt2
+R9
+R2
+vmemory
+Z11 2memory.sv|backdoor_tb.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 !s110 1731293337
+!i10b 1
+!s100 U6GM5kZN7a85Y1idlI9ZD1
+I=Thz[Y1?0e46AG6PU<UV]3
+S1
+R2
+w1731227052
+8memory.sv
+Fmemory.sv
+!i122 45
+L0 1 35
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+Z15 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z16 !s108 1731293337.000000
+!s107 backdoor_tb.sv|memory.sv|
+Z17 !s90 -reportprogress|300|+define+DEBUG|memory.sv|backdoor_tb.sv|
+!i113 0
+Z18 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z19 !s92 +define+DEBUG -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vtb
+2/u/koushik/system_verilog/System-verilog/memory/tb.sv
+R12
+!s110 1731292924
+!i10b 1
+!s100 PQOAcP<:G97]Bbk>DdojW1
+IZCDJN6hlb>R@b7bYIWVf:1
+S1
+R2
+w1731268342
+8/u/koushik/system_verilog/System-verilog/memory/tb.sv
+F/u/koushik/system_verilog/System-verilog/memory/tb.sv
+!i122 40
+L0 2 72
+R14
+R15
+r1
+!s85 0
+31
+!s108 1731292924.000000
+!s107 memory.sv|/u/koushik/system_verilog/System-verilog/memory/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/u/koushik/system_verilog/System-verilog/memory/tb.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vtb_bd
+R11
+R12
+R13
+!i10b 1
+!s100 5P5c2Gezn8l^5OAo:i7=]0
+Io36CK=lN4a3@Ff22219_l2
+S1
+R2
+w1731293174
+8backdoor_tb.sv
+Fbackdoor_tb.sv
+!i122 45
+L0 2 100
+R14
+R15
+r1
+!s85 0
+31
+R16
+Z20 !s107 backdoor_tb.sv|memory.sv|
+R17
+!i113 0
+R18
+R19
+R8

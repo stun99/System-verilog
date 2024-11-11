@@ -1,0 +1,16 @@
+/u/koushik/system_verilog/System-verilog/memory/memory.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/memory/memory.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} /u/koushik/system_verilog/System-verilog/memory/tb.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/memory/tb.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module memory
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

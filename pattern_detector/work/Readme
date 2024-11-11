@@ -1,0 +1,3 @@
+The pattern_detector.sv code consist of design and testbench. The pattern detector design is implemented using overlapping moore state machine. 
+In the testbench, I have checked the pattern by storing the elements in array and shifting the element in the array, and finally checked both the expected and counted are compared.
+

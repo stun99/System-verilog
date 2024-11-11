@@ -1,9 +1,0 @@
-/u/koushik/system_verilog/System-verilog/dff/async_dff/work/async.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/dff/async_dff/work/async.sv
-QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
--- Compiling module async
--- Compiling module top
-
-Top level modules:
-	top
-
-} {} {}}

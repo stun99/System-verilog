@@ -1,0 +1,2 @@
+The asyn_fifo.sv consist of simple asynchronous design which can store maximum of 16 instructions, the design is implemented using concepts of clock domain crossing, where we have implemented synchronizer ff to tackle the issue of data being transferred among two domains.
+The fifo is tested for full, empty, underflow and overflow conditions in tb.sv

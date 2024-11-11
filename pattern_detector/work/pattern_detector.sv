@@ -47,26 +47,47 @@ end
 always_ff @(posedge clk) begin
 if(out) begin 
 count =count+ 1;
-$monitor("count = %0d", count);
+//$monitor("count = %0d", count);
 end
 end
 endmodule
 
 module top();
-logic clk, rst, in, count, out;
-pattern_detector_1010 DUT (clk, rst, in, count, out);
-initial begin
-clk =0;
-forever #5 clk =~clk;
-end 
-initial begin
+  logic clk, rst, in, out;
+  int count, i, pattern;
+  logic [3:0] a;
 
-repeat (50) begin
-$display("time = %t, out = %d, in = %d", $time, out, in);
+  pattern_detector_1010 DUT (clk, rst, in, count, out);
 
-in = $random; 
-#10;
-end
-end
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end 
+
+  initial begin
+    rst = 1;
+    #10;
+    rst = 0;
+    pattern = 0;
+    a = 4'b0000;
+
+    repeat (50) begin
+      in = $random; 
+      #10; 
+      a = {a[2:0], in}; 
+      if (a == 4'b1010)
+        pattern = pattern + 1;
+      $display("time = %0t, out = %b, in = %b", $time, out, in);
+    end
+
+    $display("expected = %0d", pattern);
+    $display("module = %0d", count);
+
+    if (count == pattern)
+      $display("Pattern counted successfully");
+    else
+      $display("Pattern count mismatch");
+$stop;
+  end
 endmodule
 

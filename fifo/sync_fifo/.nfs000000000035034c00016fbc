@@ -1,7 +1,0 @@
-vlog +define+DEBUG syn.sv tb.sv
-
-vsim work.tb
-vsim -voptargs=+testname test_full
-add wave sim:tb/*
-
-run -all

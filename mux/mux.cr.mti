@@ -1,9 +1,0 @@
-/u/koushik/system_verilog/System-verilog/mux/mux.sv {1 {vlog -work work -vopt -sv -stats=none /u/koushik/system_verilog/System-verilog/mux/mux.sv
-QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
--- Compiling module mux
--- Compiling module top
-
-Top level modules:
-	top
-
-} {} {}}
